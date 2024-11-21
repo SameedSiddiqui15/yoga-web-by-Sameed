@@ -1,0 +1,654 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.yoga1-container {
+  margin-top: 30px;
+}
+.navbar-nav .nav-item .nav-link {
+  color: #fff;
+  padding: 0 20px;
+  text-transform: uppercase;
+  position: relative;
+}
+.navbar-brand .logo {
+  width: 250px;
+  position: relative;
+}
+@media (max-width: 991px) {
+  .navbar-nav .nav-item .nav-link {
+    background-color: #ad1f5f;
+    padding: 20px 10px;
+  }
+  .navbar-nav > .nav-item > .nav-link.active {
+    background-color: #fff;
+  }
+}
+@media (max-width: 641px) {
+  .navbar {
+    background-color: #ad1f5f;
+  }
+  .yoga1-container {
+    margin-top: 0;
+  }
+  .navbar-nav .nav-item .nav-link {
+    color: #fff;
+    padding: 20px 10px;
+    text-transform: uppercase;
+  }
+}
+@media (min-width: 991px) {
+  .navbar-nav > .nav-item > .nav-link.active {
+    color: #c5770b;
+    text-decoration: 3px solid underline;
+    text-underline-offset: 12px;
+    position: relative;
+  }
+  .navbar-nav > .nav-item > .nav-link:hover {
+    color: #f5cf9b;
+    text-decoration: 3px solid underline;
+    text-underline-offset: 12px;
+    transition: text-decoration 0.3s ease-in-out 10s;
+    position: relative;
+  }
+}
+.yoga1-section {
+  background: url("../assets/classes-hero-background.jpg") center center/cover no-repeat;
+  height: 80vh;
+  color: #f8eded;
+  overflow: visible;
+  z-index: 1;
+}
+.yoga1-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80%;
+  background-color: rgba(169, 20, 60, 0.3);
+  background: linear-gradient(to top, rgba(174, 31, 95, 0.9), rgba(169, 20, 60, 0.1) 80%);
+  z-index: 0;
+}
+
+@media (max-width: 991px) {
+  .yoga1-section {
+    height: 65vh; /* Adjust for smaller screens */
+  }
+  .yoga1-section::before {
+    height: 65%;
+  }
+}
+@media (max-width:767px) {
+  .yoga1-section {
+    height: 55vh; /* Adjust for smaller screens */
+  }
+  .yoga1-section::before {
+    height: 55%;
+  }
+}
+
+
+.yoga1-section h1 {
+  font-family: "Playfair Display", Arial, Helvetica, sans-serif ;
+  margin-top: 30px;
+  font-size: 5rem;
+  font-weight: 300;
+  margin-bottom: 1rem;
+  color: #fff;
+  position: relative;
+}
+@media (max-width:1199px) {
+  .yoga1-section h1 {
+    font-family: "Playfair Display", Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+    font-weight: 300;
+    margin-bottom: 1rem;
+    color: #fff;
+    position: relative;
+  }
+}
+@media (max-width:991px) {
+  .yoga1-section h1 {
+    font-family: "Playfair Display", Arial, Helvetica, sans-serif;
+    font-size: 2.5rem;
+    font-weight: 300;
+    margin-bottom: 1rem;
+    color: #fff;
+    position: relative;
+  }
+}
+@media (max-width:767px) {
+  .yoga1-section h1 {
+    font-family: "Playfair Display", Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    font-weight: 300;
+    margin-bottom: 1rem;
+    color: #fff;
+    position: relative;
+  }
+}
+
+.yoga1-section .btn-primary {
+  background-color: #ff1493;
+  border: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fff;
+  border-radius: 50px;
+}
+.yoga1-section .navbar-nav .nav-link h1 {
+  text-shadow: none; /* Ensure no blur */
+  opacity: 1; /* Ensure full visibility */
+}
+
+
+
+
+
+
+
+
+
+.section2{
+  background: linear-gradient(to top, white, #F7EBF9 80%);
+}
+.section2-title {
+text-align: center;
+margin-bottom: 3rem;
+}
+@media (max-width:991px) {
+.section2-title {
+  margin-bottom: 1rem;
+}
+}
+.section2-title > p{
+  font-weight: 700;
+}
+.section2-title > h2{
+  font-family: "Playfair Display", serif;
+  color: #AD1F5F;
+}
+.section2-title > small{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: grey;
+  text-align: center;
+  font-size: large;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 170px;
+}
+@media (max-width:991px) {
+  .section2-title > small{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 10px;
+  }
+}
+.yoga2-card {
+border: none;
+border-radius: 15px;
+box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4);
+cursor: pointer;
+}
+@media (max-width:991px) {
+.yoga2-card {
+ margin: 10px 0;
+}
+}
+.yoga2-card:hover {
+border: 1px solid black;
+border-radius: 15px;
+box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4);
+transform: scale(1.004);
+}
+.yoga2-card .card-head p{
+  text-align: center;  
+  margin-top: 10px;
+}
+.yoga2-card-img-top {
+height: 250px;
+object-fit: cover;
+}
+@media (max-width:991px) {
+.yoga2-card-img-top {
+  height: 450px;
+  object-fit: cover;
+}
+}
+@media (max-width:576px) {
+.yoga2-card-img-top {
+  height: auto;
+  object-fit: cover;
+}
+}
+.yoga2-card-title {
+font-family: "Playfair Display", serif;
+font-size: 1.5rem;
+color: #AD1F5F;
+}
+.yoga2-card-text {
+font-family: "Roboto", sans-serif;
+font-size: 0.9rem;
+}
+#yoga2-btn {
+background-color: #d42a76;
+border: none;
+border-radius: 30px;
+font-weight: bold;
+text-transform: uppercase;
+padding: 10px 30px;
+margin: 30px 0;
+}
+@media (max-width:991px) {
+#yoga2-btn {
+  margin: 20px 0;
+}
+}
+#yoga2-btn:hover {
+background-color: #ff0051;
+border: none;
+border-radius: 30px;
+font-weight: bold;
+text-transform: uppercase;
+padding: 10px 30px;
+margin: 30px 0;
+}
+
+
+
+
+.yoga4 {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.yoga4-backgroundImg {
+  background-image: url('https://avada.website/yoga/wp-content/uploads/sites/123/2019/11/yoga-for-children-featured-600x406.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 120%;
+  position: relative;
+  z-index: 0;
+}
+.yoga4-backgroundImg::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(169, 20, 60, 0.8); /* Adjust the color and opacity */
+  z-index: 1;
+}
+
+/* Wave SVG */
+.yoga4 .fusion-hills-opacity-candy-1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+}
+.yoga4 .fusion-hills-opacity-candy-2 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+/* Blog Title */
+.yoga4-blog-title {
+  text-align: center;
+  color: white;
+  padding: 200px 0 50px 0;
+  position: relative;
+  z-index: 2;
+}
+@media (min-width:1800px) {
+  .yoga4-blog-title {
+      padding: 250px 0 50px 0;
+  }
+}
+@media (min-width:2200px) {
+  .yoga4-blog-title {
+      padding: 300px 0 50px 0;
+  }
+}
+.yoga4-blog-title h6{
+  text-transform: uppercase;
+}
+.yoga4-blog-title h1{
+ font-family: "Playfair Display", Arial, Helvetica, sans-serif;
+}
+
+/* Blog Cards */
+.yoga4-blog-cards {
+  position: relative;
+  z-index: 2;
+}
+@media (max-width: 991px) {
+  .yoga4-blog-cards {
+      gap: 15px;
+  }
+
+  .yoga4-blog-card {
+      margin: 0 auto;
+
+  }
+  
+  .yoga4-btn {
+      text-align: center;
+      margin-top: 20px;
+  }
+
+  .yoga4-blog-title {
+      padding: 150px 0 30px 0;
+  }
+}
+
+
+/* Blog Card Styling */
+.yoga4-blog-card {
+  border-radius: 50px;
+  border: none;
+  overflow: hidden;
+  max-width: 600px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.yoga4-blog-card:hover {
+  transform: translateY(-10px);
+}
+
+/* Blog Card Image */
+.yoga4-blog-card img {
+  width: 100%;
+  height: auto;
+}
+
+/* Blog Card Body */
+.yoga4-blog-card .yoga4-card-body {
+  text-align: center;
+  background-color: #a90a35;
+  color: white;
+  padding: 20px;
+}
+
+/* Blog Card Title */
+.yoga4-blog-card .yoga4-card-title {
+  font-size: 1.25rem;
+  text-align: center;
+  padding: 0 20px;
+  font-family: "Playfair Display", Arial, Helvetica, sans-serif;
+  margin-bottom: 10px;
+}
+
+/* Blog Card Text */
+.yoga4-blog-card .yoga4-card-text {
+  font-size: 0.9rem;
+  text-align: center;
+  padding: 0 10px;
+  margin-bottom: 5px;
+}
+
+
+.yoga4-blog-text {
+  color: #ffffff;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.yoga4-subtitle {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.yoga4-title {
+  font-size: 60px;
+  font-weight:600;
+  font-family: "Playfair Display", Arial, Helvetica, sans-serif;
+  margin-bottom: 20px;
+  line-height: 1.2;
+}
+
+.yoga4-description {
+  font-size: 16px;
+  margin-bottom: 30px;
+  line-height: 1.8;
+}
+
+.yoga4-benefits {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.yoga4-benefits li {
+  font-size: 18px;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.yoga4-benefits li i {
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+@media (max-width:1199px) {
+  .yoga4-blog-text {
+    color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .yoga4-subtitle {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  .yoga4-title {
+    font-size: 50px;
+    font-weight:600;
+    font-family: "Playfair Display", Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+    line-height: 1.2;
+  }
+  
+  .yoga4-description {
+    font-size: 16px;
+    margin-bottom: 10px;
+    line-height: 1.4;
+  }
+  
+  .yoga4-benefits {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .yoga4-benefits li {
+    font-size: 18px;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .yoga4-benefits li i {
+    margin-right: 10px;
+    font-size: 20px;
+  }
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.custom-footer {
+  background-color: #252c37;
+  padding: 50px 0;
+}
+
+.footer-logo {
+  max-width: 350px;
+  margin-bottom: 20px;
+}
+
+.button-container {
+  margin-top: 10px;
+}
+
+#footer-btn {
+  background-color: #d42a76;
+  border: none;
+  border-radius: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 8px 25px;
+  margin: 30px 0;
+}
+.footer-text{
+    padding: 30px 20px;
+    color: #fff;
+}
+
+.footer-social a {
+    margin-top: 10px;
+  border-radius: 50%;
+  background-color: #464b55;
+  color: #fff;
+  font-size: 20px;
+  margin-right: 10px;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px; /* Adjust size as needed */
+  height: 49px;
+}
+
+
+.footer-social a:hover {
+  background-color: #AD1F5F;
+}
+
+.footer-bottom {
+    color: #fff;
+  margin-top: 20px;
+  font-size: 14px;
+}

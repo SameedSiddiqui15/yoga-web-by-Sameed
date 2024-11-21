@@ -1,0 +1,872 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.yoga1-container {
+  margin-top: 30px;
+}
+.navbar-nav .nav-item .nav-link {
+  color: #fff;
+  padding: 0 20px;
+  text-transform: uppercase;
+}
+.navbar-nav > .nav-item > .nav-link:hover {
+  color: #f5cf9b;
+  text-decoration: 3px solid underline;
+  text-underline-offset: 12px;
+  transition: text-decoration 0.3s ease-in-out 10s;
+  position: relative;
+}
+.navbar-brand .logo {
+  width: 250px;
+}
+@media (max-width: 991px) {
+  .navbar-nav .nav-item .nav-link {
+    background-color: #ad1f5f;
+    padding: 20px 10px;
+  }
+  .navbar-nav > .nav-item > .nav-link.active {
+    background-color: #fff;
+  }
+  .navbar-nav > .nav-item > .nav-link:hover {
+    color: #f5cf9b;
+    text-decoration: 3px solid underline;
+    text-underline-offset: 12px;
+    transition: text-decoration 0.3s ease-in-out 10s;
+    position: relative;
+  }
+}
+@media (max-width: 641px) {
+  .navbar {
+    background-color: #ad1f5f;
+  }
+  .yoga1-container {
+    margin-top: 0;
+  }
+  .navbar-nav .nav-item .nav-link {
+    color: #fff;
+    padding: 20px 10px;
+    text-transform: uppercase;
+  }
+}
+@media (min-width: 991px) {
+  .navbar-nav > .nav-item > .nav-link.active {
+    color: #e7cca6;
+    text-decoration: 3px solid underline;
+    text-underline-offset: 12px;
+  }
+}
+.yoga1-section {
+  background: url("../assets/yogaGirl.jpg") center center/cover no-repeat;
+  height: 100vh;
+  color: #fff;
+  overflow: hidden;
+}
+
+@media (max-width: 641px) {
+  .yoga1-section {
+    height: 85vh; /* Adjust for smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .yoga1-section {
+    height: 70vh; /* Adjust for very small screens */
+  }
+}
+
+.wave-container {
+  position: absolute;
+  bottom: 0vh;
+  width: 100%;
+  line-height: 0;
+}
+@media (max-width:641px) {
+  .wave-container {
+    position: absolute;
+    bottom: 15vh;
+    width: 100%;
+    line-height: 0;
+  }
+}
+@media (max-width:480px) {
+  .wave-container {
+    position: absolute;
+    bottom: 30vh;
+    width: 100%;
+    line-height: 0;
+  }
+}
+
+.wave-container svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+@media (min-width:1300px) {
+    .yoga1-text{
+        padding-top: 50px;
+        padding-left: 10px;
+    }
+}
+@media (max-width:1300px) {
+    .yoga1-text{
+        padding-top: 150px;
+        padding-left: 50px;
+    }
+}
+@media (max-width:1199px) {
+    .yoga1-text{
+        padding-top: 100px;
+        padding-left: 50px;
+    }
+}
+@media (max-width:991px) {
+    .yoga1-text{
+        padding-top: 50px;
+        padding-left: 50px;
+    }
+}
+.yoga1-section h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 4rem;
+  font-weight: 300;
+  margin-bottom: 1rem;
+}
+@media (max-width:1199px) {
+  .yoga1-section h1 {
+    font-family: "Playfair Display", serif;
+    font-size: 3rem;
+    font-weight: 300;
+    margin-bottom: 1rem;
+  }
+}
+@media (max-width:991px) {
+  .yoga1-section h1 {
+    font-family: "Playfair Display", serif;
+    font-size: 2.5rem;
+    font-weight: 300;
+    margin-bottom: 1rem;
+  }
+}
+@media (max-width:767px) {
+  .yoga1-section h1 {
+    font-family: "Playfair Display", serif;
+    font-size: 2rem;
+    font-weight: 300;
+    margin-bottom: 1rem;
+  }
+}
+
+.yoga1-section p {
+  color: #e7ccb6;
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+.yoga1-section .btn-primary {
+  background-color: #ff1493;
+  border: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fff;
+  border-radius: 50px;
+}
+
+
+.section2{
+  background: linear-gradient(to top, white, #F7EBF9 80%);
+}
+.section2-title {
+text-align: center;
+margin-bottom: 3rem;
+}
+@media (max-width:991px) {
+.section2-title {
+  margin-bottom: 1rem;
+}
+}
+.section2-title > p{
+  font-weight: 600;
+}
+.section2-title > h2{
+  font-family: "Playfair Display", serif;
+  color: #AD1F5F;
+}
+.yoga2-card {
+border: none;
+border-radius: 15px;
+box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4);
+cursor: pointer;
+}
+@media (max-width:991px) {
+.yoga2-card {
+ margin: 10px 0;
+}
+}
+.yoga2-card:hover {
+border: 1px solid black;
+border-radius: 15px;
+box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4);
+transform: scale(1.004);
+}
+.yoga2-card-img-top {
+height: 250px;
+object-fit: cover;
+}
+@media (max-width:991px) {
+.yoga2-card-img-top {
+  height: 450px;
+  object-fit: cover;
+}
+}
+@media (max-width:576px) {
+.yoga2-card-img-top {
+  height: auto;
+  object-fit: cover;
+}
+}
+.yoga2-card-title {
+font-family: "Playfair Display", serif;
+font-size: 1.5rem;
+color: #AD1F5F;
+}
+.yoga2-card-text {
+font-family: "Roboto", sans-serif;
+font-size: 0.9rem;
+}
+#yoga2-btn {
+background-color: #d42a76;
+border: none;
+border-radius: 30px;
+font-weight: bold;
+text-transform: uppercase;
+padding: 10px 30px;
+margin: 30px 0;
+}
+@media (max-width:991px) {
+#yoga2-btn {
+  margin: 20px 0;
+}
+}
+#yoga2-btn:hover {
+background-color: #ff0051;
+border: none;
+border-radius: 30px;
+font-weight: bold;
+text-transform: uppercase;
+padding: 10px 30px;
+margin: 30px 0;
+}
+
+
+.instructors-section {
+  padding: 60px 0;
+  text-align: center;
+  background-color: #ffffff;
+}
+
+.section3-title {
+text-align: center;
+margin-bottom: 3rem;
+}
+@media (max-width:991px) {
+.section3-title {
+  margin-bottom: 1rem;
+}
+}
+.section3-title > p{
+  font-weight: 600;
+}
+.section3-title > h2{
+  font-family: "Playfair Display", serif;
+  color: #AD1F5F;
+  font-weight: 500;
+}
+
+.instructor-card {
+  background-color: white;
+  border-radius: 6px;
+  padding: 40px 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+@media (max-width:991px) {
+  .instructor-card {
+     margin: 10px 0;
+}
+}
+.instructor-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.instructor-image {
+  margin-bottom: 20px;
+}
+
+.instructor-image img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50% ;
+  object-fit: cover;
+}
+.instructor-name {
+  font-family: "Playfair Display", serif;
+  font-size: 24px;
+  color: #b31357;
+  margin-bottom: 10px;
+}
+
+.instructor-bio {
+  font-size: 17px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.instructor-social a {
+  color: #b31357;
+  margin: 20px 10px;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+.instructor-social a:hover {
+  color: #ff5771;
+}
+
+
+.yoga4 {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.yoga4-backgroundImg {
+  background-image: url('../assets/yoga-inspirational-quote-background.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  position: relative;
+  z-index: 0;
+}
+.yoga4-backgroundImg::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(169, 20, 60, 0.8); /* Adjust the color and opacity */
+  z-index: 1;
+}
+
+/* Wave SVG */
+.yoga4 svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+/* Blog Title */
+.yoga4-blog-title {
+  text-align: center;
+  color: white;
+  padding: 200px 0 50px 0;
+  position: relative;
+  z-index: 2;
+}
+@media (min-width:1800px) {
+  .yoga4-blog-title {
+      padding: 250px 0 50px 0;
+  }
+}
+@media (min-width:2200px) {
+  .yoga4-blog-title {
+      padding: 300px 0 50px 0;
+  }
+}
+.yoga4-blog-title h6{
+  text-transform: uppercase;
+}
+.yoga4-blog-title h1{
+ font-family: "Playfair Display", Arial, Helvetica, sans-serif;
+}
+
+/* Blog Cards */
+.yoga4-blog-cards {
+  position: relative;
+  z-index: 2;
+}
+@media (max-width: 991px) {
+  .yoga4-blog-cards {
+      gap: 15px;
+  }
+
+  .yoga4-blog-card {
+      margin: 0 auto;
+
+  }
+  
+  .yoga4-btn {
+      text-align: center;
+      margin-top: 20px;
+  }
+
+  .yoga4-blog-title {
+      padding: 150px 0 30px 0;
+  }
+}
+
+
+/* Blog Card Styling */
+.yoga4-blog-card {
+  border-radius: 50px;
+  border: none;
+  overflow: hidden;
+  max-width: 600px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.yoga4-blog-card:hover {
+  transform: translateY(-10px);
+}
+
+/* Blog Card Image */
+.yoga4-blog-card img {
+  width: 100%;
+  height: auto;
+}
+
+/* Blog Card Body */
+.yoga4-blog-card .yoga4-card-body {
+  text-align: center;
+  background-color: #a90a35;
+  color: white;
+  padding: 20px;
+}
+
+/* Blog Card Title */
+.yoga4-blog-card .yoga4-card-title {
+  font-size: 1.25rem;
+  text-align: center;
+  padding: 0 20px;
+  font-family: "Playfair Display", Arial, Helvetica, sans-serif;
+  margin-bottom: 10px;
+}
+
+/* Blog Card Text */
+.yoga4-blog-card .yoga4-card-text {
+  font-size: 0.9rem;
+  text-align: center;
+  padding: 0 10px;
+  margin-bottom: 5px;
+}
+.yoga4-btn{
+  text-align: center;
+
+}
+/* Blog Card Button */
+.yoga4-btn .btn {
+  color: white;
+  background-color: #a9143c;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin-top: 40px;
+  margin-bottom: 70px;
+  border: 2px solid rgb(232, 229, 229);
+  padding: 8px 20px;
+  border-radius: 50px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.yoga4-btn .btn:hover {
+  color: white;
+  background-color: #a9143c;
+  border: 2px solid white;
+  transform: scale(1.05);
+}
+
+.yoga5 {
+  background-color: #AD1F5F;
+}
+
+.yoga5-card {
+  position: relative;
+  bottom: 80px;
+  height: 280px;
+  border-radius: 15px;
+  background-color: rgb(255, 255, 255);
+}
+@media (max-width:991px) {
+  .yoga5-card {
+      height: 300px;
+  }
+  .yoga5-card h2 {
+      font-size: 0.5rem;
+  }
+}
+
+.yoga5-card h2 {
+  font-size: 3.8rem;
+  color: #AD1F5F;
+  font-family: "Playfair Display", Arial, Helvetica, sans-serif;
+}
+@media (max-width:991px) {
+  .yoga5-card h2 {
+      font-size: 2.5rem;
+  }
+}
+.yoga5-card h5 {
+  font-size: 0.9rem;
+}
+
+.yoga5-card .btn {
+  border-radius: 30px;
+  padding: 12px 30px;
+  background-color: #AD1F5F;
+  text-transform: uppercase;
+  font-weight:bolder;
+}
+.yoga5-card .btn:hover {
+  background-color: #AD1F5F;
+}
+
+
+/* General Section Styling */
+.yoga6-section {
+  background-color: #ffffff;
+  position: relative;
+  padding-top: 60px;
+  padding-bottom: 0;
+  text-align: center;
+}
+.yoga6-background{
+  background-image: url("../assets/why-yoga-background.jpg");
+  height:140vh;
+  max-height: 5000px;
+  background-position: center;
+  background-size: cover;
+}
+
+.yoga6-section .yoga6-section-subtitle {
+  font-family: "Work Sans", Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  font-style: normal;
+  text-transform: uppercase;
+  padding-top: 100px;
+}
+.yoga6-section .yoga6-section-title {
+  font-family: "Playfair Display", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size:  4em;
+  color: #ad1f5f;
+  margin-bottom: 40px;
+}
+.yoga6-col-right,.yoga6-col-left{
+  padding-top:40px;
+}
+
+.yoga6-item {
+  position: relative;
+  margin-bottom: 50px;
+  align-items: center;
+}
+
+/* Benefit Items */
+.yoga6-item-left {
+  margin-bottom: 30px;
+  padding-right: 200px;
+  text-align: right;
+}
+.yoga6-item-right {
+  margin-bottom: 30px;
+  padding-left: 200px;
+  text-align: left;
+}
+.yoga6-icon-right {
+  position: absolute;
+  font-family: "Font Awesome 6 Free";
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: #AD1F5F;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 900;
+  font-size: 2rem;
+  color: #ffffff;
+  left: 100px;
+}
+.yoga6-icon-left {
+  position: absolute;
+  right: 100px;
+  top: 80%;
+  transform: translateY(-55%);
+  background-color: #AD1F5F; 
+  color: white;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+}
+.yoga6-item-left,.yoga6-item-right {
+  padding-top: 45px;
+}
+.yoga6-item-left-bottom {
+  margin-right: 90px;
+}
+.yoga6-item-right-bottom{
+  margin-left: 90px;
+}
+
+.yoga6-item h4 {
+  font-family: "Playfair Display", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: #ad1f5f;
+  margin-bottom: 10px;
+}
+.yoga6-item p {
+  font-size: 1rem;
+  color: #666;
+}
+
+@media (max-width: 1399px) and (min-width:1199px) {
+  .yoga6-item-left-bottom .yoga6-icon-left{
+      position: absolute;
+      right: 100px;
+      top: 80%;
+      transform: translateY(-72%);
+      background-color: #AD1F5F; 
+      color: white;
+      border-radius: 50%;
+      width: 80px;
+      height: 80px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 2rem;
+  }
+}
+@media (max-width: 1199px) and (min-width:991px) {
+  .yoga6-item-left {
+      margin-bottom: 30px;
+      padding-right: 100px;
+      text-align: right;
+  }
+  .yoga6-item-right {
+      margin-bottom: 30px;
+      padding-left: 100px;
+      text-align: left;
+  }
+  .yoga6-icon-right {
+      position: absolute;
+      font-family: "Font Awesome 6 Free";
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      background-color: #AD1F5F;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-weight: 900;
+      font-size: 2rem;
+      color: #ffffff;
+      left: 0;
+  }
+  .yoga6-icon-left {
+      position: absolute;
+      right: 0;
+      top: 80%;
+      transform: translateY(-55%);
+      background-color: #AD1F5F; 
+      color: white;
+      border-radius: 50%;
+      width: 80px;
+      height: 80px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 2rem;
+  }
+  .yoga6-item-left-top .yoga6-icon-left{
+      position: absolute;
+      right: 0;
+      top: 80%;
+      transform: translateY(-46%);
+      background-color: #AD1F5F; 
+      color: white;
+      border-radius: 50%;
+      width: 80px;
+      height: 80px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 2rem;
+  }
+  .yoga6-item-left-bottom .yoga6-icon-left{
+      position: absolute;
+      right: 0;
+      top: 80%;
+      transform: translateY(-72%);
+      background-color: #AD1F5F; 
+      color: white;
+      border-radius: 50%;
+      width: 80px;
+      height: 80px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 2rem;
+  }
+}
+@media (max-width: 991px) {
+  .yoga6-col-right,.yoga6-col-left{
+      padding-top: 0;
+  }
+  
+  .yoga6-item {
+      position: relative;
+      margin-bottom: 0;
+      align-items: center;
+  }
+  
+  /* Benefit Items */
+  .yoga6-item-left {
+      margin-bottom: 0;
+      padding-right: 0;
+      padding-left: 100px;
+      text-align: left;
+  }
+  .yoga6-item-right {
+      margin-bottom: 0;
+      padding-left: 100px;
+      text-align: left;
+  }
+  .yoga6-icon-right {
+      position: absolute;
+      font-family: "Font Awesome 6 Free";
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      background-color: #AD1F5F;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-weight: 900;
+      font-size: 2rem;
+      color: #ffffff;
+      left: 0;
+  }
+  .yoga6-icon-left {
+      position: absolute;
+      left: 0;
+      top: 80%;
+      transform: translateY(-55%);
+      background-color: #AD1F5F; 
+      color: white;
+      border-radius: 50%;
+      width: 80px;
+      height: 80px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 2rem;
+  }
+  .yoga6-item-left,.yoga6-item-right {
+      padding-top: 20px;
+  }
+  .yoga6-item-left-bottom {
+      margin-right: 0;
+  }
+  .yoga6-item-right-bottom{
+      margin-left: 0;
+  }
+  
+.yoga6-item h4 {
+  font-family: "Playfair Display", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: #ad1f5f;
+  margin-bottom: 0;
+}
+.yoga6-section .yoga6-section-title {
+  font-family: "Playfair Display", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size:  2em;
+  color: #ad1f5f;
+  margin-bottom: 10px;
+}
+  .row.align-items-lg-center{
+      background-color: rgba(255, 255, 255, 0.6);
+      padding-bottom: 20px;
+      border-radius: 3%;
+      border: 3px solid #EEC7FD;
+  }
+}
+
+.custom-footer {
+  background-color: #252c37;
+  padding: 50px 0;
+}
+
+.footer-logo {
+  max-width: 350px;
+  margin-bottom: 20px;
+}
+
+.button-container {
+  margin-top: 10px;
+}
+
+#footer-btn {
+  background-color: #d42a76;
+  border: none;
+  border-radius: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 8px 25px;
+  margin: 30px 0;
+}
+.footer-text{
+    padding: 30px 20px;
+    color: #fff;
+}
+
+.footer-social a {
+    margin-top: 10px;
+  border-radius: 50%;
+  background-color: #464b55;
+  color: #fff;
+  font-size: 20px;
+  margin-right: 10px;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px; /* Adjust size as needed */
+  height: 49px;
+}
+
+
+.footer-social a:hover {
+  background-color: #AD1F5F;
+}
+
+.footer-bottom {
+    color: #fff;
+  margin-top: 20px;
+  font-size: 14px;
+}
